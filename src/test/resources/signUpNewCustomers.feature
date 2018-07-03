@@ -7,3 +7,8 @@ I want to sign up new customers
 		Given Marty McFly wants to become a new customer
 		When I sign up him in the platform
 		Then he starts with 100 points
+
+	Scenario: new customers should start with 200 points
+		Given Marty McFly wants to become a new customer
+		When I sign up him in the platform
+		Then he starts with 200 points
